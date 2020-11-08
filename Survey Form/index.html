@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <img alt="dessert-image">
+   <header class="header"> 
+       <h1 id="title">Favorite Desserts</h1>
+        <p id="description">Thank you for voting for America's most loved sweet treats!</p>
+    </header>
+<form id="survey-form">
+
+    <div class="info">
+        <label id="name-label">Name</label>
+        <input id="name" type="text" name="name" placeholder="Your Name Here"/>
+            <br/>
+        <label id="email-label">Email</label>
+         <input id="email" type="email" name="email" placeholder="Your Email Here"/>
+            <br/>
+        <label id="number-label">Age</label>
+        <input id="number" type="number" name="number" placeholder="Your Age Here"/>
+            <br/>
+    </div>
+
+    <div>
+        <div class="dessert-dropdown">
+            <label for="dropdown">Your Favorite Dessert</label>
+        <select id="dropdown" name="Your Favorite Dessert" placeholder="Select One">
+            <option value="select-one" disabled>Select One</option>
+            <option value="ice-cream">Ice Cream</option>
+            <option value="cake">Cake</option>
+            <option value="pie">Pie</option>
+            <option value="cookies">Cookies</option>
+            <option value="fruit">Fruit</option>
+        </select>
+        </div>
+    </div>
+
+        <br/>
+        <div class="ice-cream">Favorite Ice Cream Flavor</div>
+    <label>Chocolate</label>
+    <input type="radio" name="chocolate">
+        <br/>
+    <label>Vanilla</label>
+    <input type="radio" name="vanilla">
+        <br/>
+    <label>Cookies and Cream</label>
+    <input type="radio" name="cookies-and-cream">
+        <br/>
+    <label>Strawberry</label>
+    <input type="radio" name="strawberry">
+        <br/>
+    
+    <div class="cake-flavor">Favorite Cake Flavor</div>
+    <label>Chocolate</label>
+    <input type="checkbox" value="Chocolate">
+        <br/>
+    <label>Vanilla</label>
+    <input type="checkbox" value="Vanilla">
+        <br/>
+    <label>Funfetti</label>
+    <input type="checkbox" value="Funfetti">
+        <br/>
+    
+    <textarea type="text" placeholder="Enter your other favorite desserts here"></textarea>
+    <br/>
+
+    <input type="submit">
+</form>
+</body>
+</html>

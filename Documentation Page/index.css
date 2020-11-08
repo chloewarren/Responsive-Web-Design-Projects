@@ -1,0 +1,93 @@
+#intro_header {
+    font-size: 26px;
+    font-style: bold;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(24, 23, 23);
+}
+
+#younglife-img {
+    padding-left: 40%;
+}
+
+
+
+.younglife-website {
+    padding-left: 47%;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(22, 21, 21);
+    font-size: 20px;
+}
+
+p {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-indent: 5%;
+    color: rgb(24, 23, 23);
+    padding-left: 25%;
+    padding-right: 5%;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 290px;
+    width: 300px;
+    border-right: solid;
+    border-color: rgb(24, 23, 23);
+    line-height: 3em;
+}
+
+.nav-link {
+    justify-content: flex-end;
+    align-self: space-between;
+    text-decoration: none;
+    padding-left: 4%;
+    color: rgb(24, 23, 23);
+    text-align: center;
+}
+
+
+#younglife-programs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+#navbar ul {
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-bottom: 1px;
+}
+
+#navbar li {
+    border-top: 1px solid;
+    position: relative;
+    list-style: none;
+}
+
+#main-doc {
+    display: block;
+    position: absolute;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header { 
+        flex-wrap: wrap;} 
+}
+
+@media (max-width: 600px) {
+    body {   
+    flex-wrap: wrap;}
+}

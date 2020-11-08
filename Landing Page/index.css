@@ -1,0 +1,101 @@
+@import url('https://fontmeme.com/fonts/fish-fingers-font/');
+
+#three-sisters {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: auto;
+}
+
+body {
+    background-color: rgb(233, 232, 227);
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-position: top;
+    top: 0;
+    height: auto;
+    width: auto;
+
+}
+
+#header-img {
+    width: 20%;
+    height: auto;
+    background-color: rgba(255, 153, 0);
+}
+
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgba(255, 153, 0);
+    align-items: center;
+    width: 100%;
+    font-family: "fish-fingers-font", sans-serif;
+    float: right;
+    padding-right: 5%;
+    font-size: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    align-self: center;
+}
+
+.introductions {
+    margin-top: 15%;
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    font-family: Verdana, Tahoma, sans-serif;
+    align-items: center;
+}
+
+#video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+    text-align: center;
+    padding-left: 38%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+#submit {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 3.5rem;
+    text-align: center;
+    align-self: center;
+}
+
+@media (max-width: 700px) {
+    header { 
+        flex-wrap: wrap;} 
+}
